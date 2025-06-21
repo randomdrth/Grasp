@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+  scrollbar-gutter: stable;
+}
+
+/* Base styles */
+:root {
+  --color-white: #FFFFFF;
+  --color-gray: #C9C9C9;
+  --color-light-gold: #E8E3D3;
+  --color-gold: #B7A57A;
+  --color-purple: #4B2E83;
+  --color-text: #232027;
+}
+
+main {
+  padding-left: 7.84rem;
+  padding-right: 6.25rem;
+}
+
+nav, footer {
+  padding-left: 7.84rem;
+  padding-right: 6.25rem;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--color-text);
+  text-transform: uppercase;
+  text-decoration: underline var(--color-gold);
+  text-underline-offset: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+
+}
+
+h3 {
+}
+
+ul, li, a {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.97rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--color-text);
+}
+
+p, label {
+  font-family: Urbanist, sans-serif;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: var(--color-text);
+}

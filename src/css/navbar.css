@@ -1,0 +1,46 @@
+nav {
+  margin-bottom: 1.8385rem;
+  position: relative;
+  margin-top: 0.94rem;
+}
+
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grasp_icon {
+  width: 2.6145rem;
+  height: 2.5375rem;
+}
+
+.nav-elements ul{
+  display: flex;
+  gap: 3.3rem;
+  list-style-type: none;
+}
+
+.nav-elements ul a {
+  text-decoration: none;
+}
+
+.nav-elements ul a.active {
+  color: var(--color-gold);
+  position: relative;
+}
+
+.nav-elements ul a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-gold);
+}
+
+.search_icon {
+  width: 1.3125rem;
+  height: 1.3125rem;
+}
