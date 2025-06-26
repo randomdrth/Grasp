@@ -12,6 +12,7 @@
 The University of Washington is a large institution with a wide variety of courses. With so many courses, it can be difficult for students to find the right courses for them. There is also limited information about courses, and those information is scattered on various platoforms. This problem has motivated the Stumble not Fumble team to create Grasp, an <strong>one</strong> resource that allows students to find and share information about courses at the University of Washington.
 
 [Link to presentation](https://ischool.uw.edu/sites/default/files/capstone/2024/11683/INFO%20491%20_%20Final%20Presentation%20-%20Stumble%20Not%20Fumble.pdf)
+
 [Link to live demo](https://www.youtube.com/watch?v=Q83Vtox4fw8&feature=youtu.be)
 
 ## Development
